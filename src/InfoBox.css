@@ -1,0 +1,29 @@
+.infobox{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+}
+.cardContainer{
+    width: 350px;
+   box-shadow: 4px 8px 12px gray;
+    border-radius: 20px;
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.img{
+    
+    border-radius: 20px;
+    transition: .5s;
+}
+.card{
+    /* border: 2px solid black; */
+    border-radius: 20px !important;
+
+}
+.card:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 12px 12px gray;
+}
